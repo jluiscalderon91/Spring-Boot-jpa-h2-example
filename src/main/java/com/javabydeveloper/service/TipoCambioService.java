@@ -1,10 +1,8 @@
 package com.javabydeveloper.service;
 
-import com.javabydeveloper.bean.TipoCambioBean;
-import com.javabydeveloper.exception.TipoCambioNotFoundException;
-
+import com.javabydeveloper.bean.ResponseBean;
 import java.math.BigDecimal;
 
 public interface TipoCambioService {
-    TipoCambioBean buscarTipoCambioPor(BigDecimal monto, int monedaOrigen, int monedaDestino) throws TipoCambioNotFoundException;
+    ResponseBean buscarTipoCambioPor(BigDecimal monto, int monedaOrigen, int monedaDestino);
 }
