@@ -49,56 +49,56 @@ public class MySpringBootApplication {
 		TipoCambio tipoCambio3 = new TipoCambio();
 		tipoCambio3.setMonedaOrigen(1);
 		tipoCambio3.setMonedaDestino(4);
-		tipoCambio3.setTipoCambio(BigDecimal.valueOf(5));
+		tipoCambio3.setTipoCambio(BigDecimal.valueOf(4.98));
 		tipoCambio3.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio3);
 
 		TipoCambio tipoCambio4 = new TipoCambio();
 		tipoCambio4.setMonedaOrigen(2);
 		tipoCambio4.setMonedaDestino(1);
-		tipoCambio4.setTipoCambio(BigDecimal.valueOf(3.8447));
+		tipoCambio4.setTipoCambio(BigDecimal.valueOf(3.86));
 		tipoCambio4.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio4);
 
 		TipoCambio tipoCambio5 = new TipoCambio();
 		tipoCambio5.setMonedaOrigen(2);
 		tipoCambio5.setMonedaDestino(3);
-		tipoCambio5.setTipoCambio(BigDecimal.valueOf(0.97));
+		tipoCambio5.setTipoCambio(BigDecimal.valueOf(0.96));
 		tipoCambio5.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio5);
 
 		TipoCambio tipoCambio6 = new TipoCambio();
 		tipoCambio6.setMonedaOrigen(2);
 		tipoCambio6.setMonedaDestino(4);
-		tipoCambio6.setTipoCambio(BigDecimal.valueOf(19.22));
+		tipoCambio6.setTipoCambio(BigDecimal.valueOf(19.23));
 		tipoCambio6.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio6);
 
 		TipoCambio tipoCambio7 = new TipoCambio();
 		tipoCambio7.setMonedaOrigen(3);
 		tipoCambio7.setMonedaDestino(1);
-		tipoCambio7.setTipoCambio(BigDecimal.valueOf(4.284));
+		tipoCambio7.setTipoCambio(BigDecimal.valueOf(4.00));
 		tipoCambio7.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio7);
 
 		TipoCambio tipoCambio8 = new TipoCambio();
 		tipoCambio8.setMonedaOrigen(3);
 		tipoCambio8.setMonedaDestino(2);
-		tipoCambio8.setTipoCambio(BigDecimal.valueOf(1.03));
+		tipoCambio8.setTipoCambio(BigDecimal.valueOf(1.04));
 		tipoCambio8.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio8);
 
 		TipoCambio tipoCambio9 = new TipoCambio();
 		tipoCambio9.setMonedaOrigen(3);
 		tipoCambio9.setMonedaDestino(4);
-		tipoCambio9.setTipoCambio(BigDecimal.valueOf(19.86));
+		tipoCambio9.setTipoCambio(BigDecimal.valueOf(19.93));
 		tipoCambio9.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio9);
 
 		TipoCambio tipoCambio10 = new TipoCambio();
 		tipoCambio10.setMonedaOrigen(4);
 		tipoCambio10.setMonedaDestino(1);
-		tipoCambio10.setTipoCambio(BigDecimal.valueOf(3.2));
+		tipoCambio10.setTipoCambio(BigDecimal.valueOf(0.20));
 		tipoCambio10.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio10);
 
@@ -112,7 +112,7 @@ public class MySpringBootApplication {
 		TipoCambio tipoCambio12 = new TipoCambio();
 		tipoCambio12.setMonedaOrigen(4);
 		tipoCambio12.setMonedaDestino(3);
-		tipoCambio12.setTipoCambio(BigDecimal.valueOf(0.05));
+		tipoCambio12.setTipoCambio(BigDecimal.valueOf(0.050));
 		tipoCambio12.setCreationTime(new Date());
 		tipoCambios.add(tipoCambio12);
 
